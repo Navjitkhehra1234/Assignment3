@@ -1,0 +1,164 @@
+/* * * * * * * * * * * * * * * * * * * * *
+General
+* * * * * * * * * * * * * * * * * * * * */
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+  
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header
+* * * * * * * * * * * * * * * * * * * * */
+header {
+    height: 80px;
+    background: white;
+}
+
+header .header-div {
+    display: flex;
+}
+
+.icon-div {
+    width: 100px;
+    margin-right: auto;
+}
+
+.icon-div span {
+    margin-left: 15px;
+    width: 30px;
+    font-size: 22px;
+}
+header a:hover { 
+    text-decoration: none;
+}
+
+header ul {
+    margin-bottom: 0;
+    display: flex;
+   
+
+}
+header ul li {
+    list-style: none;
+    display: flex;
+    
+    
+}
+header ul li a {
+    display: block;
+    height: 60px;
+    padding: 0 15px;
+    color: rgb(18, 19, 20);
+    display: flex;
+    align-items: center;
+ 
+
+}
+
+.hamburger-icon{
+    display: none;
+    background: transparent;
+    border:none;
+}
+@media(max-width: 720px){
+    header ul{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Hero
+* * * * * * * * * * * * * * * * * * * * */
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background: 
+        linear-gradient(
+        90deg,
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0)), url('../img/hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+.hero-container {
+    color: white;
+    padding: 20px;
+    
+}
+
+
+@media(max-width:720px){
+    .hero{
+        height: 400px;
+    }    
+}
+@media(max-width:600px){
+    .hero{
+        height: 280px;
+    }    
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+main
+* * * * * * * * * * * * * * * * * * * * */
+
+main .wrapper {
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+footer
+* * * * * * * * * * * * * * * * * * * * */
+
+
+footer {
+    background: rgb(233, 232, 232);
+    padding: 20px;
+}
+footer a:hover { 
+    text-decoration: none;
+}
+footer ul {    
+    padding: 0; 
+}
+footer li {    
+    list-style: none; 
+    
+}
+footer a {
+    text-decoration: none;
+    color:rgb(122, 119, 119);
+    font-size: 14px;
+
+}
+footer h4 {
+    color: rgb(88, 86, 86);
+}
+.social-icons{
+    display: flex;
+
+}
+.social-icons li{
+    flex: 1;
+   
+}
+
+
