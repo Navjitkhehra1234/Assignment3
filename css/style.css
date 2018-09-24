@@ -3,9 +3,9 @@ General
 * * * * * * * * * * * * * * * * * * * * */
 * {
     box-sizing: border-box;
-  }
+}
   
-  .wrapper {
+.wrapper {
     width: 80%;
     margin: 0 auto;
     max-width: 1000px;
@@ -45,14 +45,10 @@ header a:hover {
 header ul {
     margin-bottom: 0;
     display: flex;
-   
-
 }
 header ul li {
     list-style: none;
-    display: flex;
-    
-    
+    display: flex
 }
 header ul li a {
     display: block;
@@ -61,16 +57,14 @@ header ul li a {
     color: rgb(18, 19, 20);
     display: flex;
     align-items: center;
- 
-
 }
 
-.hamburger-icon{
+.hamburger-icon {
     display: none;
     background: transparent;
     border:none;
 }
-@media(max-width: 720px){
+@media(max-width: 720px) {
     header ul{
         display: none;
     }
@@ -95,12 +89,10 @@ Hero
     background-size: cover;
     background-position: center;
     display: flex;
-
 }
 .hero-container {
     color: white;
     padding: 20px;
-    
 }
 
 
@@ -141,24 +133,20 @@ footer ul {
 }
 footer li {    
     list-style: none; 
-    
 }
 footer a {
     text-decoration: none;
     color:rgb(122, 119, 119);
     font-size: 14px;
-
 }
 footer h4 {
     color: rgb(88, 86, 86);
 }
 .social-icons{
     display: flex;
-
 }
-.social-icons li{
+.social-icons li {
     flex: 1;
-   
 }
 
 
